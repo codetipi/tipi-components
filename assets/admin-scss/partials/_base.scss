@@ -1,0 +1,254 @@
+/*------------------------------------------------------------------
+[X. Admin]
+*/
+#tipi-components-insert-dialog { 
+	font-family: -apple-system,BlinkMacSystemFont,Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	
+	.mce-window-head { 
+		min-height: 40px; 
+		text-transform: uppercase; 
+		
+		.mce-title { 
+			line-height: 40px; 
+			font-size: 13px; 
+			font-weight: 700; 
+		}
+	}	
+
+	.tipi-spinner-wrap { 
+		text-align: center; 
+		padding: 50px 0; 
+		background-color: #fff; 
+		
+		i {
+			animation: tipi-rotate 0.85s linear infinite;
+			font-size: 30px;
+			display: inline-block;
+		}
+
+	}
+
+	.tipi-components-box-wrap {
+		background-color: #fff;
+		
+		.tipi-title {
+			text-transform: uppercase;
+			font-size: 16px;
+			font-weight: 700;
+			text-align: center;
+		}
+
+		.block { 
+			padding: 25px 15px;
+			border-top: 1px solid #ddd;
+		}
+
+		textarea { border: 1px solid #ddd; }
+
+		.block-content {   
+			text-align: center;
+
+			select { 
+				width: 25%;
+			}
+			#content { 
+				width: 90%;
+			}
+
+			.checkbox-wrap { 
+				margin-left: 10px;
+				line-height: 30px;
+
+				input { 
+					margin-right: 10px;
+				}
+			}
+		}
+		.block-1 { 
+			border-top: 0;
+		}
+		.block-title { 
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 12px;
+			letter-spacing: 1px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.component-2 {
+		.block-content { 
+			text-align: left; 
+		}
+		.input-title, .select-title { 
+			float: left; 
+			margin-right: 20px;
+			min-width: 100px;
+			line-height: 30px;
+
+			font-size: 14px;
+
+		}
+		input { height: 30px; width: 50%  }
+	}
+
+	.wp-color-picker { 
+		width: 80px;
+	}
+
+	.wp-picker-container .hidden { 
+		display: none;
+	}
+
+	.wp-color-result { 
+		background-color: #f7f7f7;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		cursor: pointer;
+		height: 22px;
+		margin: 0 6px 6px 0;
+		position: relative;
+		user-select: none;
+		vertical-align: bottom;
+		display: inline-block;
+		padding-left: 30px;
+		box-shadow: 0 1px 0 #ccc;
+		top: 0;
+	}
+
+	.wp-color-result:after {
+		background: #f7f7f7;
+		border-radius: 0 2px 2px 0;
+		border-left: 1px solid #ccc;
+		color: #555;
+		content: attr(title);
+		display: block;
+		font-size: 11px;
+		line-height: 22px;
+		padding: 0 6px;
+		position: relative;
+		right: 0;
+		text-align: center;
+		top: 0;
+	}
+
+	.wp-color-result:focus, .wp-color-result:hover { 
+		background: #fafafa; 
+		border-color: #999; 
+		color: #23282d; 
+	}
+
+	.wp-color-result:focus:after, .wp-color-result:hover:after {
+		color: #23282d; 
+		border-color: #a0a5aa; 
+		border-left: 1px solid #999; 
+	}
+
+	.wp-color-result.wp-picker-open:after {
+		content: attr(data-current); 
+	}
+
+	.wp-picker-container, .wp-picker-container:active {
+		display: inline-block; 
+		outline: 0; 
+	}
+
+	.wp-color-result:focus {
+		border-color: #5b9dd9; 
+		box-shadow: 0 0 3px rgba( 0, 115, 170, .8); 
+	}
+
+	.wp-picker-open+.wp-picker-input-wrap {
+		display: inline-block; 
+		vertical-align: top; 
+	}
+
+	.wp-picker-container .button {
+		margin-left: 6px; 
+	}
+
+	.wp-picker-container .iris-square-slider .ui-slider-handle:focus {
+		background-color: #555; 
+	}
+
+	.wp-picker-container .iris-picker {
+		border-radius: 0; 
+		border-color: #ddd; 
+		margin-top: 6px; 
+	}
+
+	.wp-picker-container input[type=text].wp-color-picker {
+		width: 65px; 
+		font-size: 12px; 
+		font-family: monospace; 
+		line-height: 16px; 
+		margin: 0; 
+	}
+
+	.wp-color-picker::-webkit-input-placeholder {
+		color: #72777c; 
+	}
+
+	.wp-color-picker::-moz-placeholder {
+		color: #72777c; 
+		opacity: 1; 
+	}
+
+	.wp-color-picker:-ms-input-placeholder {
+		color: #72777c; 
+	}
+
+	.wp-picker-container input[type=text].iris-error {
+		background-color: #ffebe8; 
+		border-color: #c00; 
+		color: #000; 
+	}
+
+}
+
+#tipi-components-insert-dialog-body { 
+	overflow-y: hidden; 
+}
+
+#tipi-components-button-insert {
+	button { 
+		background: #0085ba;
+		border-color: #0073aa #006799 #006799;
+		box-shadow: 0 1px 0 #006799;
+		color: #fff;
+		text-decoration: none;
+		text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+		line-height: 27px;
+		padding: 0 12px 2px;
+	    -webkit-appearance: none;
+	    width: 80px!important;
+		font-size: 13px;
+		border-radius: 3px;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		
+		&:hover {
+			background: #008ec2;
+			border-color: #006799;
+			color: #fff;
+		}
+
+		&:active {
+		    background: #0073aa;
+		    border-color: #006799;
+		    box-shadow: inset 0 2px 0 #006799;
+		    vertical-align: top;
+		    outline: 0;
+		}
+	}
+}
+
+
+@-webkit-keyframes tipi-rotate {
+  from { transform: rotate(360deg); } 
+  to { transform: rotate(0deg); }
+}
+@keyframes tipi-rotate {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}

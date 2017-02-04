@@ -1,0 +1,31 @@
+/*!
+Plugin Name: Tipi Components
+Plugin URI: https://github.com/codetipi/tipi-components
+Description: Collection of goodies from the tipi
+Version: 1.0
+Author: Codetipi
+Author URI: http://www.codetipi.com
+Text Domain: tipi-components
+*/
+/*------------------------------------------------------------------
+[Table of contents]
+	1. Columns
+	2. Buttons
+	3. Divider
+	4. Dropcap
+
+[Responsive: @media min-width: 768px]
+	1. Columns
+
+[Responsive: @media min-width: 1020px]
+	1. Columns
+
+-------------------------------------------------------------------*/
+@import "partials/_mixins";
+
+@import "partials/_grid_xs";
+@import "partials/_base";
+
+@media only screen and (min-width: 768px) {
+	@import "partials/_grid_m";
+} 

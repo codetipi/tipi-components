@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'codetipi';
+  src:  url('fonts/codetipi.eot?f84nry');
+  src:  url('fonts/codetipi.eot?f84nry#iefix') format('embedded-opentype'),
+    url('fonts/codetipi.ttf?f84nry') format('truetype'),
+    url('fonts/codetipi.woff?f84nry') format('woff'),
+    url('fonts/codetipi.svg?f84nry#codetipi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tipi-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'codetipi' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tipi-i-rotate-left:before {
+  content: "\f0e2";
+}
+.tipi-i-undo:before {
+  content: "\f0e2";
+}
+.tipi-i-codetipi:before {
+  content: "\e900";
+}
+.tipi-i-trash:before {
+  content: "\e054";
+}
+

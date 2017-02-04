@@ -1,0 +1,199 @@
+# Copyright (C) 2017 Tipi Components
+# This file is distributed under the same license as the Tipi Components package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tipi Components\n"
+"Report-Msgid-Bugs-To: https://github.com/codetipi/tipi-components/issues\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-02-04 19:24-0000\n"
+"Last-Translator: Codetipi\n"
+"Language-Team: Codetipi\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.7.4\n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-tipi-components-button.php:575,
+#: admin/tipi-components-i18n-strings.php:43
+msgid "Columns"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:577
+msgid "Column size"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:579
+msgid "Preview"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:581
+msgid "One Quarter (25%)"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:583
+msgid "One Third (33%)"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:585
+msgid "One Half (50%)"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:587
+msgid "Two Thirds (66%)"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:589
+msgid "Three Quarters (75%)"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:591
+msgid "Last column of row"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:593
+msgid "Content"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:599,
+#: admin/tipi-components-i18n-strings.php:49
+msgid "Buttons"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:601
+msgid "Button URL"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:603
+msgid "Button Text"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:605
+msgid "Size"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:607
+msgid "Rel"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:609
+msgid "Color"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:611
+msgid "Follow"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:613
+msgid "No Follow"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:615
+msgid "Target"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:617
+msgid "Same Window"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:619
+msgid "New Window"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:621
+msgid "Alignment"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:623
+msgid "None"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:625
+msgid "Center"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:627
+msgid "Big"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:629
+msgid "Small"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:631
+msgid "Outline"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:633
+msgid "Solid"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:635,
+#: admin/class-tipi-components-button.php:645,
+#: admin/class-tipi-components-button.php:663
+msgid "Style"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:641,
+#: admin/tipi-components-i18n-strings.php:47
+msgid "Divider"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:643
+msgid "Divider Text"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:647
+msgid "Thin"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:649
+msgid "Thick"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:651
+msgid "Double"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:653
+msgid "Dotted"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:659,
+#: admin/tipi-components-i18n-strings.php:45
+msgid "Dropcap"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:661
+msgid "Dropcap Letter"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:665
+msgid "Standard"
+msgstr ""
+
+#: admin/class-tipi-components-button.php:667
+msgid "Extra Big"
+msgstr ""
+
+#: admin/tipi-components-i18n-strings.php:35
+msgid "Insert"
+msgstr ""
+
+#: admin/tipi-components-i18n-strings.php:37
+msgid "Close"
+msgstr ""
+
+#: admin/tipi-components-i18n-strings.php:39
+msgid "Tipi Components"
+msgstr ""
+
+#: admin/tipi-components-i18n-strings.php:41
+msgid "Insert Tipi Component"
+msgstr ""

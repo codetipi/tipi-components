@@ -1,0 +1,46 @@
+/*------------------------------------------------------------------
+[1. Columns]
+*/
+.tipi-cf:before,
+.tipi-cf:after {
+    content: "";
+    display: table;
+} 
+
+.tipi-cf:after {
+    clear: both;
+}
+
+/* IE 6 & 7 */
+.tipi-cf {
+    zoom: 1;
+}
+
+.tipi-col { 
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.tipi-col-first {
+	padding-left: 0;
+}
+
+.tipi-col-last {
+	padding-right: 0;
+}
+.tipi-xs-1 { width: 8.333333333333333%; }
+.tipi-xs-2 { width: 16.66666666666667%; }
+.tipi-xs-3 { width: 25%; }
+.tipi-xs-4 { width: 33.33333333333333%; }
+.tipi-xs-5 { width: 41.66666666666667%; }
+.tipi-xs-6 { width: 50%; }
+.tipi-xs-7 { width: 58.33333333333333%; }
+.tipi-xs-8 { width: 66.66666666666667%; }
+.tipi-xs-9 { width: 75%; }
+.tipi-xs-10 { width: 83.33333333333333%; }
+.tipi-xs-11 { width: 91.66666666666667%; }
+.tipi-xs-12 { width: 100%; }

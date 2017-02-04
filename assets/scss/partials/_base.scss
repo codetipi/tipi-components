@@ -1,0 +1,97 @@
+/*------------------------------------------------------------------
+[2. Buttons]
+*/
+.tipi-component-button { 
+	display: block;
+	a { 
+		display: inline-block;
+		text-decoration: none;
+		box-shadow: none!important;
+		color: #fff;
+		padding: 10px 15px;
+		transition: all ease 0.3s;
+		border-radius: 4px;
+	}
+}
+
+// Button Sizes
+.tipi-button-size-big a { 
+	padding: 20px 30px;
+	font-size: 1.1em;
+}
+
+// Button Alignment
+.tipi-button-alignment-center { 
+	text-align: center;
+ }
+
+// Button Style
+.tipi-button-style-outline a { 
+	border: 1px solid transparent;
+	color: #111;
+}
+
+// Hover effects
+.tipi-component-hover-1 a:hover { 
+	border-color: #111!important;
+	color: #fff;
+	background-color: #111!important;
+}
+
+/*------------------------------------------------------------------
+[3. Divider]
+*/
+.tipi-component-divider { 
+	position: relative;
+	text-align: center; 
+	margin-bottom: 20px;
+	&:before { content: ''; width: 100%; border-top: 1px solid #000; display: block; position: absolute; top: 50%; }
+	span { background-color: #fff; display: inline-block; z-index: 2; position: relative; padding: 0 20px; }
+}
+
+// Dotted
+.tipi-divider-style-dotted {
+	&:before { 
+		border-top-style: dotted; 
+	}
+}
+
+// Thick
+.tipi-divider-style-thick {
+	&:before {  
+		border-bottom: 2px solid #000; 
+		border-top-width: 2px; 
+	}
+}
+
+// Double
+.tipi-divider-style-double {
+	&:before { 
+		border-top: 2px solid #000; 
+		top: calc( 50% - 2px ); 
+	}
+	&:after {
+		content: ''; 
+		width: 100%; 
+		display: block; 
+		position: absolute; 
+		top: calc( 50% + 2px ); 
+		border-bottom-width: 2px; 
+		border-top: 2px solid #000; 
+	}
+}
+
+/*------------------------------------------------------------------
+[4. Dropcap]
+*/
+.tipi-component-dropcap {
+	float: left;
+    font-size: 3.5em;
+    line-height: 1;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.tipi-dropcap-style-extrabig {
+	font-size: 7em;
+}

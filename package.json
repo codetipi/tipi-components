@@ -1,0 +1,40 @@
+{
+  "name": "tipi_components",
+  "realName": "Tipi Components",
+  "slug": "tipi-components",
+  "version": "1.0.0",
+  "project_url": "https://github.com/codetipi/tipi-components",
+  "bug_reports": "https://github.com/codetipi/tipi-components/issues",
+  "description": "Collection of components from the Tipi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codetipi/tipi-components.git"
+  },
+  "author": "Codetipi",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/codetipi/tipi-components/issues"
+  },
+  "homepage": "https://github.com/codetipi/tipi-components#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.5.2",
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-uglifycss": "^1.0.6",
+    "gulp-sort": "^2.0.0",
+    "gulp-wp-pot": "^1.2.2"
+  }
+}
