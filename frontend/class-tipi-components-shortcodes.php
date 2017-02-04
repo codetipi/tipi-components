@@ -137,7 +137,7 @@ class Tipi_Components_Shortcodes {
 		$classes .= $atts['position'] != 'last' ? ' tipi-col-first' : ' tipi-col-last';
 
 		$output = '<div class="tipi-component tipi-xs-12 tipi-component-column tipi-col' . esc_attr( $classes ) . '">';
-		$output .= $content;
+		$output .= do_shortcode( $content );
 		$output .= '</div>';
 		$output .= $atts['position'] == 'last' ? '<div class="tipi-cf"></div>' : '';
 
