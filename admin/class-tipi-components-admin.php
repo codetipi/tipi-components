@@ -63,7 +63,6 @@ class Tipi_Components_Admin {
 		}
 		
 		wp_enqueue_style( 'wp-color-picker' ); 
-		wp_enqueue_script( $this->slug . '-js', $this->url  . 'assets/js/' . $this->slug . '-admin.min.js', array( 'jquery', 'wp-color-picker' ), $this->version, true );
 		wp_enqueue_style( $this->slug, $this->url  . 'assets/css/admin-style.min.css', array(), $this->version, 'all' );
 		wp_enqueue_style( 'tipi-icons', $this->url  . 'assets/fonts/style.css', array(), $this->version, 'all' );
 

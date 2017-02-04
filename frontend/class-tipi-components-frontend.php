@@ -61,7 +61,6 @@ class Tipi_Components_Frontend {
 			return;
 		}
 
-		wp_enqueue_script( $this->slug . '-js', $this->url  . 'assets/js/' . $this->slug . '.min.js', array( 'jquery' ), $this->version, true );
 		wp_enqueue_style( $this->slug, $this->url  . 'assets/css/style.min.css', array(), $this->version, 'all' );
 
 	}
